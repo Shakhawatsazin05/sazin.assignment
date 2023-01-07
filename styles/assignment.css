@@ -40,14 +40,11 @@ text-align: left;
     
 }
 .btn-primary{
-    font-size: 20px;
-    text-align: right;
-
     color: #FFFFFF;
     font-weight: 700;
-    
+    font-size: 20px;
     border: 0;
-    padding: 20px 25px;
+    padding: 18px 35px;
     height: 64px;
     border-radius: 5px;
     background-color: #FD6E0A;
@@ -108,7 +105,7 @@ margin-bottom: 8px;
     height: 500px;
     margin-left: 330px;
     margin-top: 155px;
-    margin-bottom: 130px;
+    margin-bottom: 80px;
     
 }
 
@@ -151,11 +148,58 @@ height: 92.96px;
 }
   /* gradient info */
 .pera{
+    margin-left: 330px;
+    margin-bottom: 100px;
     position: relative;
+    
 }
 .pera-text{
-    position: absolute;
+    text-align: center;
+    
 }
-.pera img{
-    position:absolute;
+.pera img{ 
+    width: 1140px;
+    height: 300px;
+    
 }
+.pera-title{
+    
+    color:black
+    font-size: 35px;
+}
+  .btn-secondary{
+    color: #FFFFFF;
+    font-weight: 600px;
+    font-size: 20px;
+    border: 0;
+    padding: 12px 22px;
+    margin-top: 8px;
+    height: 44px;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+  }
+
+     .contact{
+        display: flex;
+        width: 700px;
+        height: 333px;
+         gap: 300px;
+         
+         text-align: center;
+     }
+     .contact-info{
+        margin-left: 333px;
+     }
+      .contact.title{
+         margin-bottom:4px;
+         width: 148px;
+height: 53px;
+      }
+     .contact-subtitle{
+        width: 444px;
+        height: 78px;
+     }
+        
+     
+
+
